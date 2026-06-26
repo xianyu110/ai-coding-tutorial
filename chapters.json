@@ -1,0 +1,63 @@
+[
+  {
+    "id": "00-intro",
+    "title": "不会写代码，也能用 AI 构建软件：AI Coding 零基础教程前言",
+    "file": "chapters/00-intro.md",
+    "csdnUrl": "https://blog.csdn.net/xianyu120/article/details/162344390",
+    "status": "published"
+  },
+  {
+    "id": "01-environment",
+    "title": "第零部分：环境准备与工具安装",
+    "file": "chapters/01-environment.md",
+    "status": "pending"
+  },
+  {
+    "id": "02-foundations",
+    "title": "第一部分：AI 编程基础理论",
+    "file": "chapters/02-foundations.md",
+    "status": "pending"
+  },
+  {
+    "id": "03-tools",
+    "title": "第二部分：AI 编程工具生态",
+    "file": "chapters/03-tools.md",
+    "status": "pending"
+  },
+  {
+    "id": "04-claude-code",
+    "title": "第三部分：Claude Code 深度使用与进阶技巧",
+    "file": "chapters/04-claude-code.md",
+    "status": "pending"
+  },
+  {
+    "id": "05-skills",
+    "title": "第四部分：AI 技能系统（Skills）深度实践",
+    "file": "chapters/05-skills.md",
+    "status": "pending"
+  },
+  {
+    "id": "06-mini-mall",
+    "title": "第五部分：完整项目案例实操",
+    "file": "chapters/06-mini-mall.md",
+    "status": "pending"
+  },
+  {
+    "id": "07-practice",
+    "title": "第六部分：项目实战（独立完成）",
+    "file": "chapters/07-practice.md",
+    "status": "pending"
+  },
+  {
+    "id": "08-codex-desktop",
+    "title": "第七部分：Codex Desktop 安装和使用教程",
+    "file": "chapters/08-codex-desktop.md",
+    "status": "pending"
+  },
+  {
+    "id": "09-appendix",
+    "title": "附录",
+    "file": "chapters/09-appendix.md",
+    "status": "pending"
+  }
+]

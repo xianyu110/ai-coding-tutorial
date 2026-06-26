@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI Coding 零基础实战教程：从零开始，用自然语言指挥 AI 构建真实软件项目。">
+  <title>AI Coding 零基础实战教程</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="AI Coding 零基础实战教程首页">
+      <span class="brand-mark">AI</span>
+      <span>AI Coding 零基础实战教程</span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航">
+      <a href="#chapters">章节</a>
+      <a href="https://blog.csdn.net/xianyu120" target="_blank" rel="noreferrer">CSDN</a>
+      <a href="./README.md">README</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>不会写代码，也能用 AI 构建软件</h1>
+        <p>一套从环境准备、工具选择、Claude Code 深度使用到完整项目实战的 AI Coding 入门教程。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#reader">开始阅读</a>
+          <a class="button secondary" href="./chapters/00-intro.md">查看 Markdown</a>
+        </div>
+      </div>
+      <img class="hero-cover" src="./assets/cover-00-ai-coding-intro.png" alt="AI Coding 零基础实战教程封面">
+    </section>
+
+    <section class="layout" id="reader">
+      <aside class="sidebar" id="chapters" aria-label="章节列表">
+        <div class="sidebar-title">章节目录</div>
+        <div class="chapter-list" id="chapterList"></div>
+      </aside>
+      <article class="reader-card">
+        <div class="reader-toolbar">
+          <div>
+            <div class="reader-label">当前章节</div>
+            <h2 id="chapterTitle">加载中...</h2>
+          </div>
+          <a class="source-link" id="sourceLink" href="./chapters/00-intro.md">Markdown</a>
+        </div>
+        <div class="markdown-body" id="content">正在加载章节内容...</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>AI Coding 零基础实战教程</span>
+    <span>适合 GitHub Pages 部署的静态阅读站点</span>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
