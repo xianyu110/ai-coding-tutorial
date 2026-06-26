@@ -46,6 +46,7 @@ AI Coding 正在改变软件开发的入门方式。
 
 - GitHub Pages 在线版：[https://xianyu110.github.io/ai-coding-tutorial/](https://xianyu110.github.io/ai-coding-tutorial/)
 - CSDN 专栏主页：[https://blog.csdn.net/xianyu120](https://blog.csdn.net/xianyu120)
+- 永久导航：[https://link3.cc/maynorai](https://link3.cc/maynorai)
 
 ## 章节目录
 
