@@ -1,104 +1,75 @@
 # AI Coding 零基础实战教程
 
-> 从零开始，用自然语言指挥 AI 构建真实软件项目。
+> 不会写代码，也能用自然语言指挥 AI 构建真实软件项目。
 
-这是一套面向零基础读者的 AI Coding 实战教程，覆盖环境准备、AI 编程基础理论、AI 编程工具生态、Claude Code 深度使用、Skills 技能系统、完整项目实战，以及 Codex Desktop 的安装和使用。
+![AI Coding 零基础实战教程封面](assets/cover-00-ai-coding-intro.png)
 
-本仓库已整理成适合 GitHub Pages 托管的静态阅读站点：
+## 教程简介
 
-- `README.md`：GitHub 仓库首页说明
-- `index.html`：在线阅读首页
-- `chapters/`：按章节拆分后的 Markdown 文档
-- `assets/`：封面图等静态资源
-- `chapters.json`：站点章节目录数据
+AI Coding 正在改变软件开发的入门方式。
+
+过去，想做一个网站、后台系统、自动化工具，往往要先学习编程语言、框架、数据库、部署流程和大量工程细节。现在，借助 Claude Code、Codex Desktop 等 AI Coding 工具，零基础用户也可以通过自然语言描述需求，让 AI 帮助完成项目规划、代码生成、调试、重构、测试和交付。
+
+这套教程面向真正的初学者，不默认你已经会写代码。课程会从环境准备开始，逐步讲清楚 AI 编程的核心思路、主流工具生态、Claude Code 的完整使用方式、Skills 技能系统的实践方法，并通过完整项目案例带你体验一次从想法到成品的开发过程。
+
+教程的目标不是让你死记命令，而是帮你建立一种新的工作方式：
+
+- 能把模糊想法整理成 AI 能理解的开发任务
+- 能用 AI 辅助完成真实项目，而不只是生成零散代码片段
+- 能判断 AI 输出是否靠谱，并学会调试、改进和验收
+- 能逐步形成自己的提示词、技能库和项目工作流
+
+## 适合人群
+
+这套教程适合：
+
+- 没有编程基础，但想做出网站、小工具或业务系统的人
+- 学过一点编程，但不知道如何把 AI 融入开发流程的人
+- 想系统学习 Claude Code、Codex Desktop 等 AI Coding 工具的人
+- 想把 AI 从“聊天助手”升级成“开发搭档”的创作者、运营、产品经理和独立开发者
+
+如果你已经是有经验的开发者，也可以把它当作 AI Coding 工作流入门手册，用来快速了解工具组合、自动化流程和项目实战方法。
+
+## 你将学到什么
+
+读完这套教程，你会掌握：
+
+- AI Coding 的基本概念和常见误区
+- Node.js、Git、编辑器、终端等基础环境准备
+- Claude Code、Codex Desktop、Cursor 等工具的定位和使用场景
+- 如何写出更清晰、更可执行的开发提示词
+- 如何让 AI 帮你规划项目、生成代码、修复错误和做代码审查
+- 如何使用 Skills 技能系统沉淀可复用能力
+- 如何完成一个完整项目的需求分析、开发、测试和交付
 
 ## 在线阅读
 
-GitHub Pages 启用后访问：
-
-```text
-https://<your-github-username>.github.io/ai-coding-tutorial/
-```
-
-本地预览地址：
-
-```text
-http://localhost:8080/
-```
+- GitHub Pages 在线版：[https://xianyu110.github.io/ai-coding-tutorial/](https://xianyu110.github.io/ai-coding-tutorial/)
+- CSDN 专栏主页：[https://blog.csdn.net/xianyu120](https://blog.csdn.net/xianyu120)
 
 ## 章节目录
 
-| 章节 | 标题 | Markdown | CSDN |
-| --- | --- | --- | --- |
-| 00 | 不会写代码，也能用 AI 构建软件：AI Coding 零基础教程前言 | [查看](chapters/00-intro.md) | [已发布](https://blog.csdn.net/xianyu120/article/details/162344390) |
-| 01 | 第零部分：环境准备与工具安装 | [查看](chapters/01-environment.md) | 待发布 |
-| 02 | 第一部分：AI 编程基础理论 | [查看](chapters/02-foundations.md) | 待发布 |
-| 03 | 第二部分：AI 编程工具生态 | [查看](chapters/03-tools.md) | 待发布 |
-| 04 | 第三部分：Claude Code 深度使用与进阶技巧 | [查看](chapters/04-claude-code.md) | 待发布 |
-| 05 | 第四部分：AI 技能系统（Skills）深度实践 | [查看](chapters/05-skills.md) | 待发布 |
-| 06 | 第五部分：完整项目案例实操 | [查看](chapters/06-mini-mall.md) | 待发布 |
-| 07 | 第六部分：项目实战（独立完成） | [查看](chapters/07-practice.md) | 待发布 |
-| 08 | 第七部分：Codex Desktop 安装和使用教程 | [查看](chapters/08-codex-desktop.md) | 待发布 |
-| 09 | 附录 | [查看](chapters/09-appendix.md) | 待发布 |
+| 章节 | 标题 | 阅读 |
+| --- | --- | --- |
+| 00 | 不会写代码，也能用 AI 构建软件：AI Coding 零基础教程前言 | [GitHub](chapters/00-intro.md) / [CSDN](https://blog.csdn.net/xianyu120/article/details/162344390) |
+| 01 | 第零部分：环境准备与工具安装 | [GitHub](chapters/01-environment.md) |
+| 02 | 第一部分：AI 编程基础理论 | [GitHub](chapters/02-foundations.md) |
+| 03 | 第二部分：AI 编程工具生态 | [GitHub](chapters/03-tools.md) |
+| 04 | 第三部分：Claude Code 深度使用与进阶技巧 | [GitHub](chapters/04-claude-code.md) |
+| 05 | 第四部分：AI 技能系统（Skills）深度实践 | [GitHub](chapters/05-skills.md) |
+| 06 | 第五部分：完整项目案例实操 | [GitHub](chapters/06-mini-mall.md) |
+| 07 | 第六部分：项目实战（独立完成） | [GitHub](chapters/07-practice.md) |
+| 08 | 第七部分：Codex Desktop 安装和使用教程 | [GitHub](chapters/08-codex-desktop.md) |
+| 09 | 附录 | [GitHub](chapters/09-appendix.md) |
 
-## 项目结构
+## 推荐阅读方式
 
-```text
-.
-├── README.md
-├── index.html
-├── styles.css
-├── script.js
-├── chapters.json
-├── assets/
-│   └── cover-00-ai-coding-intro.png
-└── chapters/
-    ├── 00-intro.md
-    ├── 01-environment.md
-    ├── 02-foundations.md
-    ├── 03-tools.md
-    ├── 04-claude-code.md
-    ├── 05-skills.md
-    ├── 06-mini-mall.md
-    ├── 07-practice.md
-    ├── 08-codex-desktop.md
-    └── 09-appendix.md
-```
+建议按章节顺序阅读。
 
-## 本地预览
+如果你是零基础读者，可以先完整读完前言和环境准备部分，再跟着工具章节一步步安装和体验。进入项目实战部分时，不要只复制命令，重点观察 AI 是如何理解需求、拆解任务、修改代码和自我检查的。
 
-`index.html` 会通过 `fetch` 加载 `chapters.json` 和章节 Markdown。浏览器直接打开本地文件时可能受到跨域限制，因此推荐启动静态服务器：
+如果你已经有开发经验，可以优先阅读 Claude Code、Skills 和完整项目案例章节，把其中的工作流迁移到自己的项目里。
 
-```bash
-cd /Users/maynorai/Downloads/cursor/ai-coding-tutorial
-python3 -m http.server 8080
-```
+## 更新说明
 
-然后打开：
-
-```text
-http://localhost:8080/
-```
-
-## GitHub Pages 部署
-
-1. 在 GitHub 创建仓库，例如 `ai-coding-tutorial`
-2. 添加远程仓库并推送：
-
-```bash
-cd /Users/maynorai/Downloads/cursor/ai-coding-tutorial
-git remote add origin https://github.com/<your-github-username>/ai-coding-tutorial.git
-git push -u origin main
-```
-
-3. 打开仓库的 `Settings -> Pages`
-4. Source 选择 `Deploy from a branch`
-5. Branch 选择 `main`，目录选择 `/root`
-
-部署完成后即可在线阅读。
-
-## 维护说明
-
-- 新增或调整章节时，同步更新 `chapters.json` 和本 README 的章节目录。
-- CSDN 发布状态更新后，同步填写对应章节的 `csdnUrl`。
-- 图片资源优先使用自定义图床；仓库封面等站点资源放入 `assets/`。
+本教程会持续整理和发布。CSDN 章节会按计划逐步更新，GitHub 仓库会同步保存完整 Markdown 版本和在线阅读页面。
