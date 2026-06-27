@@ -160,7 +160,7 @@ function renderChapterList(activeId) {
   chapterList.innerHTML = chapters
     .map((chapter, index) => {
       const active = chapter.id === activeId ? " active" : "";
-      const status = chapter.status === "published" ? "已发布到 CSDN" : "待发布";
+      const status = chapter.status === "published" ? "已发布到 GitHub" : "待发布";
       return `
         <button class="chapter-button${active}" type="button" data-id="${chapter.id}">
           <span class="chapter-index">${String(index).padStart(2, "0")}</span>
