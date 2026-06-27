@@ -111,6 +111,12 @@ a {
   margin-top: 32px;
 }
 
+.hero-note {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
 .button {
   display: inline-flex;
   min-height: 44px;
